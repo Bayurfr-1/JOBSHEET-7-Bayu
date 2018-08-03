@@ -41,7 +41,7 @@ public class Latihan7 {
           System.out.print("MASUKKAN NO PILIHAN ANDA");
           int bahan2 = scanner.nextInt();
       }else
-        System.println("MOHON MAAF PILIHAN TIDAK DI TENTUKAN, "+
+        System.out.println("MOHON MAAF PILIHAN TIDAK DI TENTUKAN, "+
                 "TIDAK BISA MEMBERIKAN SARAN RESEP");
               
           
