@@ -11,7 +11,7 @@ import java.util.Scanner;
  *
  * @author win 7
  */
-public class Latihan7 {
+public class APLIKASI {
     public static void main(String[]args){
         
     
@@ -23,8 +23,8 @@ public class Latihan7 {
         
         
         System.out.println("BAHAN PERTAMA : ");
-        System.out.println("1. Pisang ");
-        System.out.println("2. Telur ");
+        System.out.println("1. TEH ");
+        System.out.println("2. AIR HANGAT ");
         System.out.println("3.Masukkan pilihan anda : ");
         int bahan1 = scanner.nextInt();
         
@@ -32,12 +32,12 @@ public class Latihan7 {
       
           System.out.println("BAHAN KEDUA : ");
           if (bahan1 == 1) {
-              System.out.println("1.SUSU");
-              System.out.println("2.MINYAK GORENG");
+              System.out.println("1.KOPI");
+              System.out.println("2.SUSU");
               System.out.println("3.TIDAK ADA");
           }else{
-              System.out.println("1.Minyak goreng");
-              System.out.println("2.Roti");
+              System.out.println("1.GULA");
+              System.out.println("2.AIR DINGIN");
               System.out.println("TIDAK ADA");
           }
           System.out.print("MASUKKAN NO PILIHAN ANDA : ");
@@ -51,10 +51,10 @@ public class Latihan7 {
                   switch(bahan2)
                      {
                       
-                      case 1:System.out.println("Anda dapat membuat mata telur sapi");break;
-                      case 2:System.out.println("Anda dapat membuat Sandwich telur");break;
-                      case 3:System.out.println("Anda dapat membuat telur");break;
-                      
+                      case 1:System.out.println("Anda dapat membuat KOPI");break;
+                      case 2:System.out.println("Anda dapat membuat SUSU");break;
+                      case 3:System.out.println("Anda dapat membuat KOPI SUSU");break;
+                      case 4:System.out.println("TEH TAWAR");
                       
                       
                   }
@@ -64,21 +64,5 @@ public class Latihan7 {
                 "TIDAK BISA MEMBERIKAN SARAN RESEP");
       }
     }
-          
-      
-      
-    
-      
-    
-          
-          
-      
-        
-           
-    
-    
-
-
-    
     
 
