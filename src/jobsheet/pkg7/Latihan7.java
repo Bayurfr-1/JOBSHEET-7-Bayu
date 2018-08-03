@@ -26,6 +26,28 @@ public class Latihan7 {
         System.out.println("3.Masukkan pilihan anda ");
         int bahan1 = scanner.nextInt();
         
+      if(bahan1 == 1 || bahan1 == 2);
+      {
+          System.out.println("BAHAN KEDUA : ");
+          if (bahan1 == 1) {
+              System.out.println("1.SUSU");
+              System.out.println("2.MINYAK GORENG");
+              System.out.println("3.TIDAK ADA");
+          }else{
+              System.out.println("1.Minyak goreng");
+              System.out.println("2.Roti");
+              System.out.println("TIDAK ADA");
+          }
+          System.out.print("MASUKKAN NO PILIHAN ANDA");
+          int bahan2 = scanner.nextInt();
+      }else
+        System.println("MOHON MAAF PILIHAN TIDAK DI TENTUKAN, "+
+                "TIDAK BISA MEMBERIKAN SARAN RESEP");
+              
+          
+          
+      
+        
            
     
     
