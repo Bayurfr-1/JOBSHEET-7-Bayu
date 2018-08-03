@@ -12,7 +12,7 @@ import java.util.Scanner;
  * @author win 7
  */
 public class Latihan7 {
-    public static void main(String[] args) {
+    public static void main(String[]args){
         
     
         String identitas = "BAYU RIZQI FACHREZA RAMADHAN / XR5 / 07";
@@ -29,7 +29,7 @@ public class Latihan7 {
         int bahan1 = scanner.nextInt();
         
       if(bahan1 == 1 || bahan1 == 2);
-      {
+      
           System.out.println("BAHAN KEDUA : ");
           if (bahan1 == 1) {
               System.out.println("1.SUSU");
@@ -42,28 +42,32 @@ public class Latihan7 {
           }
           System.out.print("MASUKKAN NO PILIHAN ANDA");
           int bahan2 = scanner.nextInt();
+      
           
           
           if(bahan2 >= 1 && bahan2<= 3)
           {
               if(bahan1==1)
                   switch(bahan2)
-                  {
+                     {
                       
                       case 1:System.out.println("Anda dapat membuat mata telur sapi");break;
                       case 2:System.out.println("Anda dapat membuat Sandwich telur");break;
                       case 3:System.out.println("Anda dapat membuat telur");break;
                       case 4:System.out.println("WOOWW MASAKAN ANDA ENAK SEKALI:)");
                       
-                         
-                      }
-      }else
+                      
+                  }
+      }else 
+              
         System.out.println("MOHON MAAF PILIHAN TIDAK DI TENTUKAN, "+
                 "TIDAK BISA MEMBERIKAN SARAN RESEP");
-          
       }
-      
     }
+          
+      
+      
+    
       
     
           
